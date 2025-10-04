@@ -1,0 +1,22 @@
+pub mod types;
+pub mod errors;
+pub mod message_parser;
+pub mod transport;
+pub mod simple_query;
+pub mod streaming_query;
+pub mod query;
+pub mod client;
+pub mod hooks;
+pub mod permissions;
+pub mod mcp_server;
+
+pub use types::*;
+pub use errors::*;
+pub use message_parser::*;
+pub use simple_query::simple_query;
+pub use streaming_query::{streaming_query, StreamingQuery};
+pub use query::Query;
+pub use client::{ClaudeSDKClient, MessageStream, ResponseStream};
+pub use hooks::{HookCallback, HookRegistry, HookMatcherConfig, HookManager};
+pub use permissions::CanUseToolCallback;
+pub use mcp_server::{SdkMcpServer, McpTool, ToolHandler, ToolResult, ToolResultContent, ImageSource};

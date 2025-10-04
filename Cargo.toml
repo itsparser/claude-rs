@@ -1,0 +1,59 @@
+[package]
+name = "claude"
+version = "0.1.0"
+edition = "2021"
+authors = ["itsparser <itsparser@gmail.com>"]
+license = "MIT"
+description = "Type-safe Rust SDK for Claude Agent - seamless integration with Claude Code CLI for AI-powered automation"
+repository = "https://github.com/itsparser/claude-rs"
+homepage = "https://github.com/itsparser/claude-rs"
+documentation = "https://github.com/itsparser/claude-rs"
+keywords = ["claude", "ai", "anthropic", "llm", "agent"]
+categories = ["api-bindings", "asynchronous", "development-tools"]
+readme = "README.md"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+tokio-stream = "0.1"
+async-trait = "0.1"
+futures = "0.3"
+async-stream = "0.3"
+which = "6.0"
+
+[dev-dependencies]
+tokio-test = "0.4"
+
+# Examples
+[[example]]
+name = "types_demo"
+path = "examples/types_demo.rs"
+
+[[example]]
+name = "message_parser_demo"
+path = "examples/message_parser_demo.rs"
+
+[[example]]
+name = "error_handling_demo"
+path = "examples/error_handling_demo.rs"
+
+[[example]]
+name = "verify_library"
+path = "examples/verify_library.rs"
+
+[[example]]
+name = "simple_real_query"
+path = "examples/simple_real_query.rs"
+
+[[example]]
+name = "streaming_query_example"
+path = "examples/streaming_query_example.rs"
+
+[[example]]
+name = "interactive_chat"
+path = "examples/interactive_chat.rs"
+
+[[example]]
+name = "hooks_example"
+path = "examples/hooks_example.rs"
