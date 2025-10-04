@@ -57,3 +57,16 @@ path = "examples/interactive_chat.rs"
 [[example]]
 name = "hooks_example"
 path = "examples/hooks_example.rs"
+
+# V2 API Examples (ergonomic improvements)
+[[example]]
+name = "v2_simple_ask"
+path = "examples/v2_simple_ask.rs"
+
+[[example]]
+name = "v2_message_extensions"
+path = "examples/v2_message_extensions.rs"
+
+[[example]]
+name = "v2_simplified_callbacks"
+path = "examples/v2_simplified_callbacks.rs"
