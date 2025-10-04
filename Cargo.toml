@@ -25,48 +25,96 @@ which = "6.0"
 [dev-dependencies]
 tokio-test = "0.4"
 
-# Examples
-[[example]]
-name = "types_demo"
-path = "examples/types_demo.rs"
-
-[[example]]
-name = "message_parser_demo"
-path = "examples/message_parser_demo.rs"
-
-[[example]]
-name = "error_handling_demo"
-path = "examples/error_handling_demo.rs"
-
-[[example]]
-name = "verify_library"
-path = "examples/verify_library.rs"
-
-[[example]]
-name = "simple_real_query"
-path = "examples/simple_real_query.rs"
-
-[[example]]
-name = "streaming_query_example"
-path = "examples/streaming_query_example.rs"
-
-[[example]]
-name = "interactive_chat"
-path = "examples/interactive_chat.rs"
-
-[[example]]
-name = "hooks_example"
-path = "examples/hooks_example.rs"
-
-# V2 API Examples (ergonomic improvements)
+# V2 API Examples (Recommended - Ergonomic & Developer-Friendly)
 [[example]]
 name = "v2_simple_ask"
-path = "examples/v2_simple_ask.rs"
+path = "examples/v2/v2_simple_ask.rs"
 
 [[example]]
 name = "v2_message_extensions"
-path = "examples/v2_message_extensions.rs"
+path = "examples/v2/v2_message_extensions.rs"
 
 [[example]]
 name = "v2_simplified_callbacks"
-path = "examples/v2_simplified_callbacks.rs"
+path = "examples/v2/v2_simplified_callbacks.rs"
+
+[[example]]
+name = "v2_builder_pattern"
+path = "examples/v2/builder_pattern.rs"
+
+[[example]]
+name = "v2_facade_functions"
+path = "examples/v2/facade_functions.rs"
+
+[[example]]
+name = "v2_extension_traits"
+path = "examples/v2/extension_traits.rs"
+
+[[example]]
+name = "v2_callback_macros"
+path = "examples/v2/callback_macros.rs"
+
+[[example]]
+name = "v2_prelude_module"
+path = "examples/v2/prelude_module.rs"
+
+[[example]]
+name = "v2_complete_workflow"
+path = "examples/v2/complete_workflow.rs"
+
+# V1 API Examples (Original - Still Functional)
+[[example]]
+name = "v1_types_demo"
+path = "examples/v1/types_demo.rs"
+
+[[example]]
+name = "v1_message_parser_demo"
+path = "examples/v1/message_parser_demo.rs"
+
+[[example]]
+name = "v1_error_handling_demo"
+path = "examples/v1/error_handling_demo.rs"
+
+[[example]]
+name = "v1_verify_library"
+path = "examples/v1/verify_library.rs"
+
+[[example]]
+name = "v1_simple_real_query"
+path = "examples/v1/simple_real_query.rs"
+
+[[example]]
+name = "v1_streaming_query_example"
+path = "examples/v1/streaming_query_example.rs"
+
+[[example]]
+name = "v1_interactive_chat"
+path = "examples/v1/interactive_chat.rs"
+
+[[example]]
+name = "v1_hooks_example"
+path = "examples/v1/hooks_example.rs"
+
+[[example]]
+name = "v1_can_use_tool_example"
+path = "examples/v1/can_use_tool_example.rs"
+
+[[example]]
+name = "v1_sdk_mcp_example"
+path = "examples/v1/sdk_mcp_example.rs"
+
+[[example]]
+name = "v1_session_continuation"
+path = "examples/v1/session_continuation.rs"
+
+[[example]]
+name = "v1_session_forking"
+path = "examples/v1/session_forking.rs"
+
+[[example]]
+name = "v1_session_resuming"
+path = "examples/v1/session_resuming.rs"
+
+[[example]]
+name = "v1_test_interactive"
+path = "examples/v1/test_interactive.rs"

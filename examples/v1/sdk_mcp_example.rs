@@ -1,4 +1,4 @@
-use claude::{SdkMcpServer, McpTool, ToolHandler, ToolResult};
+use claude::mcp::{SdkMcpServer, McpTool, ToolHandler, ToolResult};
 use std::sync::Arc;
 use std::collections::HashMap;
 

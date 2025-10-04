@@ -6,7 +6,7 @@
 use claude::prelude::*;
 
 #[tokio::main]
-async fn main() -> Result<(), Box<dyn std::error::Error>> {
+async fn main() -> std::result::Result<(), Box<dyn std::error::Error>> {
     println!("=== V2 Simple Ask Example ===\n");
 
     // Tier 1: Facade API - Simplest possible usage

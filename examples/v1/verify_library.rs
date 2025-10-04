@@ -4,9 +4,10 @@
 /// Run with: cargo run --example verify_library
 
 use claude::{
-    AssistantMessage, ClaudeAgentOptions, ContentBlock, Message, PermissionMode,
-    SystemPromptConfig, UserMessage, UserMessageContent,
+    ClaudeAgentOptions, ContentBlock, Message, PermissionMode,
+    SystemPromptConfig,
 };
+use claude::types::{AssistantMessage, UserMessage, UserMessageContent};
 
 fn main() {
     println!("=== Claude Rust SDK - Library Verification ===\n");
